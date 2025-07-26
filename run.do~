@@ -1,0 +1,5 @@
+vlog tb_intr_cntrlr.v
+vsim tb +testname=unique_priority
+#do wave.do
+add wave -position insertpoint -radix hex sim:/tb/dut/*
+run -all

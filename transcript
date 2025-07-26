@@ -1,0 +1,134 @@
+# Reading pref.tcl
+# 
+# 
+# 
+# 
+pwd
+# F:/Verilog_Assgn/A15. Interrupt controller
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:38:01 on Jul 25,2025
+# vlog -reportprogress 300 tb_intr_cntrlr.v 
+# -- Compiling module ctlr
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:38:01 on Jul 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb "+testname=unique_priority" 
+# Start time: 14:38:02 on Jul 25,2025
+# Loading work.tb
+# Loading work.ctlr
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: tb_intr_cntrlr.v Line: 33
+# random_array[0]=7
+# random_array[1]=1c
+# random_array[2]=8
+# random_array[3]=16
+# random_array[4]=4
+# random_array[5]=0
+# random_array[6]=19
+# random_array[7]=18
+# random_array[8]=1b
+# random_array[9]=11
+# random_array[10]=2
+# random_array[11]=5
+# random_array[12]=1e
+# random_array[13]=10
+# random_array[14]=17
+# random_array[15]=3
+# random_array[16]=6
+# random_array[17]=14
+# random_array[18]=d
+# random_array[19]=f
+# ** Note: $finish    : tb_intr_cntrlr.v(55)
+#    Time: 935 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb_intr_cntrlr.v line 55
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {F:/Verilog_Assgn/A15. Interrupt controller/wave.do}
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:43:23 on Jul 25,2025
+# vlog -reportprogress 300 tb_intr_cntrlr.v 
+# -- Compiling module ctlr
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:43:24 on Jul 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 14:43:25 on Jul 25,2025, Elapsed time: 0:05:23
+# Errors: 0, Warnings: 1
+# vsim tb "+testname=unique_priority" 
+# Start time: 14:43:25 on Jul 25,2025
+# Loading work.tb
+# Loading work.ctlr
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: tb_intr_cntrlr.v Line: 33
+# random_array[0]=7
+# random_array[1]=1c
+# random_array[2]=8
+# random_array[3]=16
+# random_array[4]=4
+# random_array[5]=0
+# random_array[6]=19
+# random_array[7]=18
+# random_array[8]=1b
+# random_array[9]=11
+# random_array[10]=2
+# random_array[11]=5
+# random_array[12]=1e
+# random_array[13]=10
+# random_array[14]=17
+# random_array[15]=3
+# random_array[16]=6
+# random_array[17]=14
+# random_array[18]=d
+# random_array[19]=f
+# ** Note: $finish    : tb_intr_cntrlr.v(55)
+#    Time: 935 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb_intr_cntrlr.v line 55
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:43:47 on Jul 25,2025
+# vlog -reportprogress 300 tb_intr_cntrlr.v 
+# -- Compiling module ctlr
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:43:47 on Jul 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:43:48 on Jul 25,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 1
+# vsim tb "+testname=unique_priority" 
+# Start time: 14:43:48 on Jul 25,2025
+# Loading work.tb
+# Loading work.ctlr
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: tb_intr_cntrlr.v Line: 33
+# random_array[0]=7
+# random_array[1]=c
+# random_array[2]=8
+# random_array[3]=6
+# random_array[4]=4
+# random_array[5]=0
+# random_array[6]=9
+# random_array[7]=b
+# random_array[8]=1
+# random_array[9]=2
+# random_array[10]=5
+# random_array[11]=e
+# random_array[12]=3
+# random_array[13]=d
+# random_array[14]=f
+# random_array[15]=a
+# ** Note: $finish    : tb_intr_cntrlr.v(55)
+#    Time: 855 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb_intr_cntrlr.v line 55
+quit -sim
+# End time: 14:44:20 on Jul 25,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 1

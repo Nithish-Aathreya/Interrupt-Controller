@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Verilog_Assgn/A15. Interrupt controller
+vctlr
+Z1 !s110 1753434827
+!i10b 1
+!s100 Sk43nZQEgz^eU<O0bEzIX0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Izme9PPUK@o3d54BWO[E=l2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1753073782
+8intr_cntrlr.v
+Fintr_cntrlr.v
+!i122 68
+L0 1 129
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1753434827.000000
+!s107 intr_cntrlr.v|tb_intr_cntrlr.v|
+Z6 !s90 -reportprogress|300|tb_intr_cntrlr.v|
+!i113 1
+Z7 tCvgOpt 0
+vtb
+R1
+!i10b 1
+!s100 [VnooUP^OdD5K>KLnWXk81
+R2
+IUhkGg8H7JN3m@O`QVVMg63
+R3
+R0
+w1753434824
+8tb_intr_cntrlr.v
+Ftb_intr_cntrlr.v
+!i122 68
+L0 3 224
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 intr_cntrlr.v|tb_intr_cntrlr.v|
+R6
+!i113 1
+R7
